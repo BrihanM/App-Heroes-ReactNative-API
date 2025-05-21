@@ -15,9 +15,9 @@ export default function AppNavigator() {
     // Se define el contenedor de navegación con una configuración común para los headers (centrado)
     <Stack.Navigator screenOptions={{ headerTitleAlign: 'center' }}>
       
-      <Stack.Screen name="List" component={ListScreen} options={{ title: 'Superhéroes' }} />
+      <Stack.Screen name="List" component={ListScreen} options={{ title: 'Super héroes' }} />
       
-      <Stack.Screen name="Detail" component={DetailScreen} options={{ title: 'Detalle' }} />
+      <Stack.Screen name="Detail" component={DetailScreen} options={{ title: 'Detalles del personaje' }} />
     </Stack.Navigator>
   );
 };
